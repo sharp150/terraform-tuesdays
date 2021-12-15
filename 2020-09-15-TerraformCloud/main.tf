@@ -66,7 +66,7 @@ module "network" {
     environment = "dev"
     costcenter  = "it"
     day         = "tuesday"
-    viewer      = "robert"
+    viewer      = "sharpy"
   }
 
   depends_on = [azurerm_resource_group.vnet]
